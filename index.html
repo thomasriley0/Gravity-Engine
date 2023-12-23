@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engine</title>
+</head>
+
+<body>
+
+    <div id="engineContainer">
+        <canvas width="500px" height="500px" id="engine">
+
+        </canvas>
+        <label id="gravityLabel" for="gravityButton">Gravity: Off</label>
+        <button id="gravityButton">Gravity</button>
+
+    </div>
+
+    <style>
+        #engineContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #engine {
+            border: grey 1px solid;
+        }
+    </style>
+
+    <script src="engine.js"></script>
+
+</body>
+
+</html>
